@@ -1,0 +1,210 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+}
+.clearfix {
+	clear: both;
+	float:none;
+}
+.container {
+	width: 960px;
+	box-sizing: border-box;
+	position: relative;
+	margin: 0 auto;
+}
+
+/********************* header part ************************/
+.logo {
+	padding: 20px;
+	width: 200px;
+	height: 60px;
+	background-color: #4AAAA5;
+	color: #fff;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: bold;
+	line-height: 1.2em;
+	float: left;
+}
+.main-menu-wrapper {
+	float: right;
+}
+.main-menu-wrapper ul {
+	position: relative;
+	top: 40px;
+}
+.main-menu-wrapper ul li {
+	display: inline-block;
+}
+.main-menu-wrapper ul li + li {
+	margin-left: 20px;
+}
+.main-menu-wrapper ul li + li:before {
+	content: "|";
+	color: #efefef;
+	font-size: 1.4em;
+	margin-right: 20px;
+}
+.main-menu-wrapper ul li a {
+	font-size: 1.6em;
+	text-decoration: none;
+	color: #aaa;
+}
+.main-menu-wrapper ul li a:hover {
+	text-decoration: underline;
+}
+header {
+	width: 100%;
+}
+/********************* end of header part *************************/
+
+/*************************** body part ************************/
+.body {
+	background: url(https://i.ytimg.com/vi/-nOpuwYHu8k/hqdefault.jpg) left top repeat;
+	position: relative;
+	width: 100%;
+	box-shadow: inset 0px 2px 2px #aaa;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.section {
+	background: #fff;
+	box-shadow: 0px 0px 2px #aaa;
+	padding: 40px 20px;
+	float: left;
+	box-sizing: border-box;
+}
+.section + .section {
+	margin-left: 30px;
+}
+.left-section {
+	width: 650px;
+}
+.right-section {
+	width: 270px;
+	height: 200px;
+}
+
+h1 {
+	color: #4AAAA5;
+	font-size: 2em;
+	font-weight: bold;
+}
+hr {
+	border: none;
+	border-bottom: 3px solid #eee;
+	border-right: 5px;
+	margin: 20px 0;
+}
+.my-photo {
+	width: 200;
+	height: 200px;
+	margin: 0 20px 20px 0;
+	float: left;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #666;
+	text-align: justify;
+}
+
+.social li {
+	display: inline-block;
+}
+.social li + li {
+	margin-left: 11px;
+}
+.social li img {
+	width: 60px;
+	height: 60px;
+}
+footer {
+	background: #666666;
+	border-top: 5px solid #4AAAA5;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+label {
+	width: 100%;
+	font-size: 2em;
+	color: #666;
+	line-height: 1.6em;
+	float: none;
+	clear: both;
+}
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	color: #666;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+input:focus, textarea:focus {
+	outline: 1px solid #4AAAA5;
+}
+
+button {
+	background-color: #4AAAA5;
+	border: none;
+	padding: 7px 15px;
+	font-size: 1.4em;
+	color: #fff;
+	font-weight: bold;
+}
+
+.table {
+	display: inline-table;
+}
+.table .row {
+	display: table-row;
+}
+.table .cell {
+	display: table-cell;
+}
+
+.portfolio {
+	box-sizing: border-box;
+	width: 100%;
+}
+.portfolio-item {
+	position: relative;
+	padding-bottom: 40px;
+}
+.portfolio-item img,
+.portfolio-label {
+	width: 290px;
+}
+
+.portfolio-item + .portfolio-item img {
+	float: right;
+}
+
+.portfolio-item + .portfolio-item .portfolio-label {
+	right: 0;
+	left: auto;
+}
+
+.portfolio-label {
+	position: absolute;
+	left: 0;
+	bottom: 60px;
+	box-sizing: border-box;
+	background: #4AAAA5;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+/*************************** end of body part ************************/
